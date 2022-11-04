@@ -456,24 +456,17 @@ input {
     margin-bottom: 20px;
   }
 
-  .section8-flex-right > button {
-    margin-bottom: 50px;
-  }
-
   .footer-icons-desktop {
     display: none;
   }
 
   .footer-icons {
     display: flex;
+    margin-top: -130px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .large-section {
-    padding: 0 200px;
-  }
-
   .navbar-desktop {
     display: none;
   }
@@ -484,7 +477,7 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15px;
+    padding: 20px 70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -658,6 +651,7 @@ input {
 
   .footer-icons {
     display: flex;
+    justify-content: center;
     margin-top: -70px;
     margin-bottom: 100px;
   }
